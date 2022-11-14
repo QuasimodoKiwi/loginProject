@@ -31,9 +31,7 @@
     padding: 5px;
 }
 
-.user-input{
-    
-}
+.user-input {}
 
 .login-div {
     background-color: lightcoral;
@@ -41,6 +39,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .innerLogin {
@@ -69,12 +68,10 @@
 }
 
 .sign-up-link {
-    /* margin: 0 auto; */
-    /* margin-left: 130px; */
     background-color: yellow;
-    
+
 }
 
-.row{
-    max-width: 50%;
+.row {
+    margin: 0 25%;
 }
