@@ -15,7 +15,6 @@
 
 .medium-icons {
     font-size: 25px;
-
 }
 
 .flex-container {
@@ -29,6 +28,10 @@
     box-shadow: 2px 2px red;
     margin-right: 30px;
     padding: 5px;
+}
+
+.quick-sign-in ul{
+    list-style-type: none;
 }
 
 .user-input{
@@ -52,27 +55,31 @@
     display: flex;
     padding: 10px;
     justify-content: center;
+    background-image: radial-gradient(rgb(132, 195, 214), rgb(36, 148, 110));
+    box-shadow: 2px 2px 5px black;
 }
 
 .innerInnerLogin {
     display: flex;
-
 }
 
 .image-div {
-    /* background-image: url("./assets/images/Symph.gif"); */
+    background-image: url("./assets/images/Symph.gif");
     width: 50%;
     height: 100%;
-    background-color: rgb(34, 31, 31);
+    background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .sign-up-link {
-    background-color: yellow;
-
+    padding-top: 5px;
+    color: honeydew;
+    text-shadow: 1px 1px black;
 }
+
+
 
 .row {
     margin: 0 25%;
