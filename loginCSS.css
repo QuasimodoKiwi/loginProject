@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.CompanyName{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 70pt;
+    color: goldenrod;
+    text-shadow: 2px 2px red;
+    font-family: 'Freehand', cursive;
+}
+
+.medium-icons{
+    font-size: 25px;
+
+}
+
+.flex-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-div{
+    background-color: lightcoral;
+    width: 50%;
+    height: 100%;
+}
+
+.innerLogin{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+
+.image-div{
+    background-image: url("./assets/images/loginImage.jpg");
+    width: 50%; 
+    height: 100%;
+    background-color: rgb(34, 31, 31);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
