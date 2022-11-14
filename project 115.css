@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color: black;
+}
+#welcome{
+background-color: black;
+
+
+height: 400px;
+background-size: cover;
+background-attachment: fixed;   
+
+}
+
+#welcome img{
+    width: 300px;
+}
+
+
+#welcomeText{
+     text-align: center;
+font-size: 70px;
+color: gray;
+
+}
+
+#description{
+   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./addOns/work.webp");
+   background-size: cover ;
+   background-attachment: fixed;
+   height: 1200px;
+   display: flex;
+   font-size: 40px;
+   
+}
+
+#descriptionText{
+    width: 700px;
+     
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+}
+
+#pictures{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    clear: both;
+    max-width: 100%;
+    position: relative;
+    bottom: 700px;
+    font-size: 40px;
+    margin-left: 200px;
+    color: whitesmoke;
+    
+
+}
+
+#pic1{
+   width: 400px;
+   margin-right: 50px;
+}
+#pic1 img{
+    width: 400px;
+
+}
+
+#pic2{
+ width: 400px;
+ margin-right: 50px;
+  
+}
+
+#pic2 img{
+    width: 400px;
+}
+
+#pic3{
+    width: 400px;
+    margin-right: 200px;
+}
+
+#pic3 img{
+    width: 440px;
+}
+
+#signUp{
+    position: relative;
+    bottom:400px;
+    margin-left: 500px;
+    color: white;
+    
+
+}
+
+
+
+.span-2-of-3 {
+    width: 66.13%;
+}
+
+.span-1-of-3 {
+    width: 32.26%;
+}
+
+.row{
+    max-width: 1140px;
+   margin:0 auto;
+}
+
+.col{
+    display:block;
+    float:left;
+    margin:1% 0 1% 1.6% ;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 300;
+    padding: 10px 30px;
+    text-decoration: none;
+    color:white;
+    border-radius: 100px;
+    border-style: double;color: azure;
+            border-width: 4px;
+            background-position: center;background-size:contain ;
+            box-shadow: 0px 0px 10px 10px white
+}
+
+.btn-full{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+label{
+    font-style: italic;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+}
+
+select{
+    width: 200px;
+    height: 30px;
+}
