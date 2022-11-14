@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+
+#welcome{
+background-color: black;
+
+
+height: 400px;
+background-size: cover;
+background-attachment: fixed;   
+
+}
+
+#welcome img{
+    width: 300px;
+}
+
+
+#welcomeText{
+     text-align: center;
+font-size: 70px;
+color: gray;
+
+}
+
+#description{
+   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./addOns/work.webp");
+   background-size: cover ;
+   background-attachment: fixed;
+   height: 1200px;
+   display: flex;
+   font-size: 40px;
+   
+}
+
+#descriptionText{
+    width: 700px;
+     
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+}
+
+#pictures{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    clear: both;
+    max-width: 100%;
+    position: relative;
+    bottom: 700px;
+    font-size: 40px;
+    margin-left: 200px;
+    color: whitesmoke;
+    
+
+}
+
+#pic1{
+   width: 400px;
+   margin-right: 50px;
+}
+#pic1 img{
+    width: 400px;
+
+}
+
+#pic2{
+ width: 400px;
+ margin-right: 50px;
+  
+}
+
+#pic2 img{
+    width: 400px;
+}
+
+#pic3{
+    width: 400px;
+    margin-right: 200px;
+}
+
+#pic3 img{
+    width: 440px;
+}
+
