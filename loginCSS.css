@@ -31,6 +31,10 @@
     padding: 5px;
 }
 
+.user-input{
+    
+}
+
 .login-div {
     background-color: lightcoral;
     width: 50%;
@@ -51,6 +55,7 @@
 
 .innerInnerLogin {
     display: flex;
+
 }
 
 .image-div {
@@ -64,6 +69,12 @@
 }
 
 .sign-up-link {
+    /* margin: 0 auto; */
+    /* margin-left: 130px; */
     background-color: yellow;
+    
+}
 
+.row{
+    max-width: 50%;
 }
