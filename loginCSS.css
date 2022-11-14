@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.CompanyName{
+.CompanyName {
     margin-top: 3%;
     text-align: center;
     font-size: 70pt;
@@ -13,38 +13,57 @@
     font-family: 'Freehand', cursive;
 }
 
-.medium-icons{
+.medium-icons {
     font-size: 25px;
 
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     height: 100vh;
     width: 100vw;
 }
 
-.login-div{
+.quick-sign-in {
+    background-color: gold;
+    box-shadow: 2px 2px red;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+.login-div {
     background-color: lightcoral;
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.innerLogin{
+.innerLogin {
     background-color: white;
-    height: fit-content;
-    width: fit-content;
     margin: 0 auto;
+    width: 50%;
+    height: 20%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
 }
 
+.innerInnerLogin {
+    display: flex;
+}
 
-
-.image-div{
-    background-image: url("./assets/images/loginImage.jpg");
-    width: 50%; 
+.image-div {
+    /* background-image: url("./assets/images/Symph.gif"); */
+    width: 50%;
     height: 100%;
     background-color: rgb(34, 31, 31);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+.sign-up-link {
+    background-color: yellow;
+
 }
