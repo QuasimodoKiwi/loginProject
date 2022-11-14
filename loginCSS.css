@@ -70,12 +70,10 @@
 }
 
 .sign-up-link {
-    /* margin: 0 auto; */
-    /* margin-left: 130px; */
     background-color: yellow;
-    
+
 }
 
-.row{
-    max-width: 50%;
+.row {
+    margin: 0 25%;
 }
